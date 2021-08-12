@@ -23,7 +23,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+
+    #local
     'user',
+    'jobs.apps.JobsConfig'
 ]
 
 REST_FRAMEWORK = {
