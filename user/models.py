@@ -41,5 +41,11 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
 
     cv = models.FileField(null=True, blank=True)
 
+    is_active = models.BooleanField(default=True)
+
+    is_staff = models.BooleanField(default=False)
+
+    objects = UserProfileManager()
+
     USERNAME_FIELD = "username"
     REQUIRED_FIELDS = []
