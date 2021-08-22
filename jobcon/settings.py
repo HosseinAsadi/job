@@ -24,7 +24,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+
+    #local
     'user',
+    'jobs.apps.JobsConfig'
 ]
 
 REST_FRAMEWORK = {
