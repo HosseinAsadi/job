@@ -82,6 +82,7 @@ venv.bak/
 
 # User app
 user/migrations/00*
+jobs/migrations/00*
 
 # Sublime Text # 
 *.tmlanguage.cache 
